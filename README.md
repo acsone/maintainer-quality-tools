@@ -19,6 +19,10 @@ If your project depends on other OCA/Github repositories, create a file called `
 
 The addons path used will automatically consider these repositories.
 
+If `oca_dependencies.txt` is not present, Dependencies outside the repository will be automatically installed from
+https://wheelhouse.odoo-community.org/oca and https://pypi.python.org
+
+
 Check your .travis file for syntax issues.
 ------------------------------------------
 
