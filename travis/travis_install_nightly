@@ -71,7 +71,7 @@ if [ -f "oca_dependencies.txt" ]; then
         echo "Error cloning dependencies"
         exit $clone_result
     fi
-else
+elif ["$VERSION" != '7.0']; then
     echo "Installing Odoo"
     pip install -e ${HOME}/${REPO[1]}-${VERSION}
     echo "Installing addons and dependencies"
