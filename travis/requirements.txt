@@ -1,4 +1,4 @@
-http://download.gna.org/pychart/PyChart-1.39.tar.gz
+# http://download.gna.org/pychart/PyChart-1.39.tar.gz installed using apt-get
 babel >= 1.0
 decorator
 docutils
