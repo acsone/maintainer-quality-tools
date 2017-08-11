@@ -1,4 +1,5 @@
-# http://download.gna.org/pychart/PyChart-1.39.tar.gz installed using apt-get
+--find-links https://wheelhouse.acsone.eu/manylinux1
+pychart == 1.39
 babel >= 1.0
 decorator
 docutils
